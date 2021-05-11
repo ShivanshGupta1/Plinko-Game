@@ -71,7 +71,7 @@ function draw() {
   }
 
   //display the paricles 
-  for (var e = 0; k < particles.length; e++) {
+  for (var e = 0; e < particles.length; e++) {
     particles[e].display();
   }
 }
